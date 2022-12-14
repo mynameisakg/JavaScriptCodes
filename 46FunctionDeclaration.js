@@ -46,8 +46,9 @@ function findTargetNum(arr,num) {
     for(let i=0; i<arr.length; i++){
         if(arr[i] === num){
             return true;
-        }
+        } 
     }
+    return false;
 }
 
 console.log(findTargetNum([1,2,3,4,5], 4));
